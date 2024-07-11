@@ -1,15 +1,16 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Hero from '../components/Hero.astro';
-import Navbar from '../components/Navbar.astro';
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import Navbar from "../components/Navbar.astro";
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<Navbar />
-		<Hero />
+		<div class="bg-custom-gradient">
+			<Navbar />
+			<Hero />
+		</div>
 	</main>
 </Layout>
 
-<style>
-</style>
+<style></style>
